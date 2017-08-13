@@ -1,6 +1,6 @@
  import React from 'react'
 
- export default class User extends React.Component{
+ export default class UserSignUp extends React.Component{
     constructor(){
       super()
     }
@@ -8,7 +8,7 @@
    render(){
       return(
         <div>
-          <p>User Profile</p>
+          <p>SignUp here</p>
         </div>
 
      )

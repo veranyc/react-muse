@@ -1,6 +1,6 @@
  import React from 'react'
 
- export default class Events extends React.Component{
+ export default class UserProfile extends React.Component{
     constructor(){
       super()
     }
@@ -8,8 +8,9 @@
    render(){
       return(
         <div>
-          <p>My Events</p>
+          <p>User Profile</p>
         </div>
+
      )
     }
   }
