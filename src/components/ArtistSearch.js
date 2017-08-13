@@ -1,5 +1,5 @@
  import React from 'react'
- const getArtistSearchUrl = 'https://api.setlist.fm/rest/0.1/search/artists?artistName=lcd+soundsystem'
+ const getArtistSearchUrl = 'https://api.setlist.fm/rest/0.1/search/artists?artistName=Arcade+Fire'
 
  export default class ArtistSearch extends React.Component{
     constructor(){
