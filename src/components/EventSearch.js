@@ -32,6 +32,17 @@
       return(
         <div>
           <p>Search for Event</p>
+          <form onSubmit={this.handleSubmit}>
+            <label>
+              Artist Name:
+              <input type="text" value={this.state.artistName} onChange={this.handleChangeArtist} />
+            </label>
+            <label>
+              City:
+              <input type="text" value={this.state.cityName} onChange={this.handleChangeCity} />
+            </label>
+            <input type="submit" value="Submit" />
+      </form>
         </div>
      )
     }

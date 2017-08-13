@@ -17,17 +17,17 @@ import EventsRouter from './routes/EventsRouter'
 injectTapEventPlugin()
 // const muiTheme = getMuiTheme(darkBaseTheme)
 
-// const muiTheme = getMuiTheme({
-//   palette: {
-//     primary1Color: teal800,
-//     accent1Color: deepOrange300
-//   }
-// })
+const muiTheme = getMuiTheme({
+  palette: {
+    primary1Color: teal800,
+    accent1Color: deepOrange300
+  }
+})
 
-class App extends Component {
+class App extends Component {  
   render() {
     return (
-      <MuiThemeProvider muiTheme={getMuiTheme(darkBaseTheme)}>
+      <MuiThemeProvider muiTheme={muiTheme}>
         <Router>
           <div>
             <AppBar title="Vera's App">
